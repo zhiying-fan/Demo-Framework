@@ -13,6 +13,8 @@
 		073260C025CBA18C0063EF2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 073260BE25CBA18C0063EF2C /* Main.storyboard */; };
 		073260C225CBA1900063EF2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 073260C125CBA1900063EF2C /* Assets.xcassets */; };
 		073260C525CBA1900063EF2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 073260C325CBA1900063EF2C /* LaunchScreen.storyboard */; };
+		073260CF25CBDEE70063EF2C /* CallKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 073260CE25CBDEE70063EF2C /* CallKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		073260D125CBDEFE0063EF2C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 073260D025CBDEFE0063EF2C /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		073260C125CBA1900063EF2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		073260C425CBA1900063EF2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		073260C625CBA1900063EF2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		073260CE25CBDEE70063EF2C /* CallKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CallKit.framework; path = System/Library/Frameworks/CallKit.framework; sourceTree = SDKROOT; };
+		073260D025CBDEFE0063EF2C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				073260D125CBDEFE0063EF2C /* CoreLocation.framework in Frameworks */,
+				073260CF25CBDEE70063EF2C /* CallKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +48,7 @@
 			children = (
 				073260B725CBA18C0063EF2C /* Demo-Framework */,
 				073260B625CBA18C0063EF2C /* Products */,
+				073260CD25CBDEE70063EF2C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +72,15 @@
 				073260C625CBA1900063EF2C /* Info.plist */,
 			);
 			path = "Demo-Framework";
+			sourceTree = "<group>";
+		};
+		073260CD25CBDEE70063EF2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				073260D025CBDEFE0063EF2C /* CoreLocation.framework */,
+				073260CE25CBDEE70063EF2C /* CallKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
