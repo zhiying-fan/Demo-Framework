@@ -7,6 +7,7 @@
 
 import UIKit
 import MapKit
+import GoogleMaps
 
 class ViewController: UIViewController {
   @IBOutlet weak var appleMapView: MKMapView!
