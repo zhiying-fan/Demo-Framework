@@ -1,0 +1,6 @@
+use_frameworks!
+target 'Maps_Tests' do
+  pod 'Maps', :path => '../'
+  
+  
+end

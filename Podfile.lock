@@ -5,20 +5,27 @@ PODS:
   - GoogleMaps/Base (4.1.0)
   - GoogleMaps/Maps (4.1.0):
     - GoogleMaps/Base
+  - Maps (0.1.0):
+    - Alamofire
+    - GoogleMaps
 
 DEPENDENCIES:
-  - Alamofire
-  - GoogleMaps
+  - Maps (from `./modules/Maps`)
 
 SPEC REPOS:
   https://cdn.cocoapods.org/:
     - Alamofire
     - GoogleMaps
 
+EXTERNAL SOURCES:
+  Maps:
+    :path: "./modules/Maps"
+
 SPEC CHECKSUMS:
   Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
   GoogleMaps: 008e2c80e38605b56b560e8deb73d4194ff30bef
+  Maps: 5212f5ba3e3dffb36f62c8073ec38011352ba1f3
 
-PODFILE CHECKSUM: 1738162f361218fdd7cdf09fb6daa2955123459d
+PODFILE CHECKSUM: 414a2984dfff9c0ac4435a2490039d39c6090ee2
 
 COCOAPODS: 1.10.1

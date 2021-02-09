@@ -6,7 +6,6 @@ target 'Demo-Framework' do
   use_frameworks!
 
   # Pods for Demo-Framework
-  pod 'GoogleMaps'
-  pod 'Alamofire'
+  pod 'Maps', :path => './modules/Maps'
   
 end

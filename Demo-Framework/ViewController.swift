@@ -7,8 +7,14 @@
 
 import UIKit
 import MapKit
+import Maps
 import GoogleMaps
 
 class ViewController: UIViewController {
   @IBOutlet weak var appleMapView: MKMapView!
+
+  override func viewDidLoad() {
+    super.viewDidLoad()
+
+  }
 }
