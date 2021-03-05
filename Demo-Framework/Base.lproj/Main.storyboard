@@ -19,18 +19,27 @@
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Axn-gA-wbs">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="403"/>
                             </mapView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ys5-UP-cKc">
+                                <rect key="frame" x="0.0" y="493" width="414" height="403"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Axn-gA-wbs" secondAttribute="trailing" id="7n4-94-dK8"/>
+                            <constraint firstItem="Ys5-UP-cKc" firstAttribute="height" secondItem="Axn-gA-wbs" secondAttribute="height" id="NZm-Ww-Quf"/>
                             <constraint firstItem="Axn-gA-wbs" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.45:1" id="R8a-n2-HX1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ys5-UP-cKc" secondAttribute="trailing" id="Vdv-Wa-JgY"/>
+                            <constraint firstItem="Ys5-UP-cKc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Z7t-R7-fdR"/>
                             <constraint firstItem="Axn-gA-wbs" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="dJ4-Pn-fHH"/>
                             <constraint firstItem="Axn-gA-wbs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="nM1-HF-Rw5"/>
+                            <constraint firstAttribute="bottom" secondItem="Ys5-UP-cKc" secondAttribute="bottom" id="toG-79-vaY"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="appleMapView" destination="Axn-gA-wbs" id="HzU-BB-MXl"/>
+                        <outlet property="mapContainer" destination="Ys5-UP-cKc" id="qrf-5K-SWM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

@@ -30,12 +30,13 @@ Map View Wrapper
   s.ios.deployment_target = '12.0'
 
   s.source_files = 'Maps/Classes/*'
-  
-  # s.resource_bundles = {
-  #   'Maps' => ['Maps/Assets/*.png']
-  # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+#  s.resources = 'Maps/Assets/*.xib'
+
+  s.resource_bundles = {
+    'Maps' => ['Maps/Assets/*.xib']
+  }
+
   s.dependency 'GoogleMaps'
   s.dependency 'Alamofire'
 end

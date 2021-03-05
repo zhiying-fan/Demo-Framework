@@ -23,12 +23,20 @@
                     </constraints>
                     <state key="normal" image="location.fill" catalog="system"/>
                 </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="我是地图" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z1C-YF-pSA">
+                    <rect key="frame" x="172.5" y="302.5" width="69.5" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
+                <constraint firstItem="Z1C-YF-pSA" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Bip-Zu-muR"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="sPX-xP-DeE" secondAttribute="trailing" constant="24" id="TKK-fM-TT6"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="sPX-xP-DeE" secondAttribute="bottom" constant="24" id="Ucv-n4-54c"/>
+                <constraint firstItem="Z1C-YF-pSA" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="tvU-9d-3kk"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
